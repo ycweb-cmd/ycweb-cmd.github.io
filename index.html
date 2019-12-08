@@ -151,6 +151,75 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-如何更换github博客主题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/12/08/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%8D%A2github%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/">如何更换github博客主题</a>
+    </h1>
+  
+
+        
+        <a href="/2019/12/08/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%8D%A2github%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/" class="archive-article-date">
+  	<time datetime="2019-12-08T04:08:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>有一个简单大方的博客主题是大多数程序员所向的，<br>下面笔者就教大家如何更换一个自己喜欢的博客主题，<br>以目前比较火的yilia主题为例。废话不多说，直接开始。</p>
+<h2 id="第一章，下载主题"><a href="#第一章，下载主题" class="headerlink" title="第一章，下载主题"></a>第一章，下载主题</h2><p>我们使用git命令下载安装（把yilia主题包下载到 blog目录下的themes里面）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</span></pre></td></tr></table></figure>
+<p>然后出现以下提示信息，说明下载成功：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">Cloning into <span class="string">'themes/yilia'</span>...</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">remote: Enumerating objects: 1, <span class="keyword">done</span>.</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">remote: Counting objects: 100% (1/1), <span class="keyword">done</span>.</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">error: RPC failed; curl 56 OpenSSL SSL_read: Connection was reset</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line">fatal: early EOF</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">6</span></pre></td><td class="code"><pre><span class="line">fatal: the remote end hung up unexpectedly</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">7</span></pre></td><td class="code"><pre><span class="line">fatal: index-pack failed</span></pre></td></tr></table></figure>
+<p>特别注意的是，若您的计算机没有设置翻墙，下载速度会很慢，请耐心等待。</p>
+<h2 id="第二章，配置使用"><a href="#第二章，配置使用" class="headerlink" title="第二章，配置使用"></a>第二章，配置使用</h2><p>下载完成之后，我们需要修改blog目录下的_config.yml文件，<br>在这里，我们可以用任意编辑软件编辑此文件，笔者用的是notepad++编写的，<br>我们用notepad++打开，找到# Extensions，<br>把theme:修改成yilia，然后用hexo g重新生成部署就行了</p>
+<h1 id="题外话，若您需要设置yilia主题的配置，请访问https-blog-csdn-net-lynnbest-article-details-79845944"><a href="#题外话，若您需要设置yilia主题的配置，请访问https-blog-csdn-net-lynnbest-article-details-79845944" class="headerlink" title="题外话，若您需要设置yilia主题的配置，请访问https://blog.csdn.net/lynnbest/article/details/79845944"></a>题外话，若您需要设置yilia主题的配置，请访问<a href="https://blog.csdn.net/lynnbest/article/details/79845944" target="_blank" rel="noopener">https://blog.csdn.net/lynnbest/article/details/79845944</a></h1>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/12/08/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%8D%A2github%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" target="_blank" rel="noopener" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-基于node-js搭建的博客教程" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -220,81 +289,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2019/12/05/%E5%9F%BA%E4%BA%8Enode-js%E6%90%AD%E5%BB%BA%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" target="_blank" rel="noopener" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/05/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2019/12/05/hello-world/" class="archive-article-date">
-  	<time datetime="2019-12-05T10:21:21.802Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-05</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo server</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo generate</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/05/hello-world/">展开全文 >></a>
         </p>
       
 
